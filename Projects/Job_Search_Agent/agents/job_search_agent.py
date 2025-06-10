@@ -51,7 +51,7 @@ class SerpSearchTool:
 search_agent = Agent(
     name="JobSearchAgent",
     instructions=(
-       "You are a job discovery bot. Given a  Data Scientist/ Senior Data Scientist job-related search query, return a JSON object with up to 10 job listings from Linkedin , Hirist, or Naukri which are latest and most recent "
+       "You are a job discovery bot. Given a  Data Scientist/ Senior Data Scientist job-related search query, return a JSON object with up to 10 job listings from Linkedin , Hirist, or Naukri which are latest and have been posted today "
         "Each job listing must have the following fields: title, company, location, link, summary. "
         "Return the result in this exact format:\n"
         "{\n"
